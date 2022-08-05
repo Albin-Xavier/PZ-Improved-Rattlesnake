@@ -1,0 +1,320 @@
+<FgmHeader attribute_count="50" game="Games.PLANET_ZOO_1_6" shader_name="Animal_Skin" texture_count="13" unk_0="0" unk_1="0">
+	<textures _address="0 320" _pool_type="2" _size="312">
+		<textureinfo dtype="FgmDtype.Texture" name="pAOTexture" offset="1193" some_index_0="0" some_index_1="0">
+			<value>
+				<texindex array_index="0" index="0" />
+			</value>
+		</textureinfo>
+		<textureinfo dtype="FgmDtype.Texture" name="pAlbinoBaseColourAndMaskTexture" offset="1204" some_index_0="0" some_index_1="0">
+			<value>
+				<texindex array_index="0" index="1" />
+			</value>
+		</textureinfo>
+		<textureinfo dtype="FgmDtype.RGBA" name="pBaldnessScarTexture" offset="1236" some_index_0="0" some_index_1="0">
+			<value>
+				<color a="0" b="0" g="0" r="255" />
+				<color a="128" b="0" g="0" r="255" />
+			</value>
+		</textureinfo>
+		<textureinfo dtype="FgmDtype.Texture" name="pBaseColourAndMaskTexture" offset="1257" some_index_0="0" some_index_1="0">
+			<value>
+				<texindex array_index="0" index="2" />
+			</value>
+		</textureinfo>
+		<textureinfo dtype="FgmDtype.RGBA" name="pErythristicBaseColourAndMaskTexture" offset="1283" some_index_0="0" some_index_1="0">
+			<value>
+				<color a="255" b="127" g="127" r="127" />
+				<color a="255" b="127" g="127" r="127" />
+			</value>
+		</textureinfo>
+		<textureinfo dtype="FgmDtype.RGBA" name="pLeucisticBaseColourAndMaskTexture" offset="1320" some_index_0="0" some_index_1="0">
+			<value>
+				<color a="255" b="127" g="127" r="127" />
+				<color a="255" b="127" g="127" r="127" />
+			</value>
+		</textureinfo>
+		<textureinfo dtype="FgmDtype.Texture" name="pMarkingNoise" offset="1355" some_index_0="0" some_index_1="0">
+			<value>
+				<texindex array_index="0" index="3" />
+			</value>
+		</textureinfo>
+		<textureinfo dtype="FgmDtype.RGBA" name="pMarkingPatchworkMask" offset="1369" some_index_0="0" some_index_1="0">
+			<value>
+				<color a="255" b="127" g="127" r="127" />
+				<color a="255" b="127" g="127" r="127" />
+			</value>
+		</textureinfo>
+		<textureinfo dtype="FgmDtype.RGBA" name="pMelanisticBaseColourAndMaskTexture" offset="1391" some_index_0="0" some_index_1="0">
+			<value>
+				<color a="255" b="127" g="127" r="127" />
+				<color a="255" b="127" g="127" r="127" />
+			</value>
+		</textureinfo>
+		<textureinfo dtype="FgmDtype.Texture" name="pNormalTexture" offset="1427" some_index_0="0" some_index_1="0">
+			<value>
+				<texindex array_index="0" index="4" />
+			</value>
+		</textureinfo>
+		<textureinfo dtype="FgmDtype.Texture" name="pRoughnessPackedTexture" offset="1442" some_index_0="0" some_index_1="0">
+			<value>
+				<texindex array_index="0" index="5" />
+			</value>
+		</textureinfo>
+		<textureinfo dtype="FgmDtype.Texture" name="pScarClut" offset="1466" some_index_0="0" some_index_1="0">
+			<value>
+				<texindex array_index="0" index="6" />
+			</value>
+		</textureinfo>
+		<textureinfo dtype="FgmDtype.RGBA" name="pXanthicBaseColourAndMaskTexture" offset="1476" some_index_0="0" some_index_1="0">
+			<value>
+				<color a="255" b="127" g="127" r="127" />
+				<color a="255" b="127" g="127" r="127" />
+			</value>
+		</textureinfo>
+	</textures>
+	<attributes _address="0 632" _pool_type="2" _size="800">
+		<attributeinfo dtype="FgmDtype.Float" name="gWetBrightness" offset="13" value_offset="0" />
+		<attributeinfo dtype="FgmDtype.Int" name="pAOTexCoordIndex" offset="28" value_offset="4" />
+		<attributeinfo dtype="FgmDtype.Int" name="pAnimalIdentityMask" offset="45" value_offset="8" />
+		<attributeinfo dtype="FgmDtype.Float3" name="pColourMask_HSLGenetic0" offset="65" value_offset="12" />
+		<attributeinfo dtype="FgmDtype.Float3" name="pColourMask_HSLGenetic1" offset="89" value_offset="24" />
+		<attributeinfo dtype="FgmDtype.Float3" name="pColourMask_HSLGeneticAlbino0" offset="113" value_offset="36" />
+		<attributeinfo dtype="FgmDtype.Float3" name="pColourMask_HSLGeneticAlbino1" offset="143" value_offset="48" />
+		<attributeinfo dtype="FgmDtype.Float3" name="pColourMask_HSLGeneticErythristic0" offset="173" value_offset="60" />
+		<attributeinfo dtype="FgmDtype.Float3" name="pColourMask_HSLGeneticErythristic1" offset="208" value_offset="72" />
+		<attributeinfo dtype="FgmDtype.Float3" name="pColourMask_HSLGeneticLeucistic0" offset="243" value_offset="84" />
+		<attributeinfo dtype="FgmDtype.Float3" name="pColourMask_HSLGeneticLeucistic1" offset="276" value_offset="96" />
+		<attributeinfo dtype="FgmDtype.Float3" name="pColourMask_HSLGeneticMelanistic0" offset="309" value_offset="108" />
+		<attributeinfo dtype="FgmDtype.Float3" name="pColourMask_HSLGeneticMelanistic1" offset="343" value_offset="120" />
+		<attributeinfo dtype="FgmDtype.Float3" name="pColourMask_HSLGeneticXanthic0" offset="377" value_offset="132" />
+		<attributeinfo dtype="FgmDtype.Float3" name="pColourMask_HSLGeneticXanthic1" offset="408" value_offset="144" />
+		<attributeinfo dtype="FgmDtype.Float" name="pColourMask_NoiseContrast" offset="439" value_offset="156" />
+		<attributeinfo dtype="FgmDtype.Float" name="pColourMask_NoiseThreshold" offset="465" value_offset="160" />
+		<attributeinfo dtype="FgmDtype.Float" name="pColourMask_NoiseWeight" offset="492" value_offset="164" />
+		<attributeinfo dtype="FgmDtype.Float3" name="pCorpseTint" offset="516" value_offset="168" />
+		<attributeinfo dtype="FgmDtype.Float3" name="pDirtDryColour" offset="528" value_offset="180" />
+		<attributeinfo dtype="FgmDtype.Float3" name="pDirtWetColour" offset="543" value_offset="192" />
+		<attributeinfo dtype="FgmDtype.Bool" name="pEnableScreenSpaceAO" offset="558" value_offset="204" />
+		<attributeinfo dtype="FgmDtype.Bool" name="pMarkingNoiseEnableRandomOffset" offset="579" value_offset="208" />
+		<attributeinfo dtype="FgmDtype.Float" name="pMarkingNoiseScale" offset="611" value_offset="212" />
+		<attributeinfo dtype="FgmDtype.Float" name="pMaximumSnowAmount" offset="630" value_offset="216" />
+		<attributeinfo dtype="FgmDtype.Float" name="pMaximumWaterPermeability" offset="649" value_offset="220" />
+		<attributeinfo dtype="FgmDtype.Float" name="pNoisiness" offset="675" value_offset="224" />
+		<attributeinfo dtype="FgmDtype.Int" name="pRenderLayerOverride" offset="686" value_offset="228" />
+		<attributeinfo dtype="FgmDtype.Float" name="pScarBaldnessCutoff" offset="707" value_offset="232" />
+		<attributeinfo dtype="FgmDtype.Float" name="pScarMaskPower" offset="727" value_offset="236" />
+		<attributeinfo dtype="FgmDtype.Float" name="pSnowOnSlopesOffset" offset="742" value_offset="240" />
+		<attributeinfo dtype="FgmDtype.Float" name="pSpecularOcclusion" offset="762" value_offset="244" />
+		<attributeinfo dtype="FgmDtype.Bool" name="pUseOrenNayar" offset="781" value_offset="248" />
+		<attributeinfo dtype="FgmDtype.Float" name="pVerticalTiling" offset="795" value_offset="252" />
+		<attributeinfo dtype="FgmDtype.Float" name="pWeather_ExplicitNormalThreshold" offset="811" value_offset="256" />
+		<attributeinfo dtype="FgmDtype.Float" name="pWetRoughnessStrength" offset="844" value_offset="260" />
+		<attributeinfo dtype="FgmDtype.Float" name="pWetRoughnessValue" offset="866" value_offset="264" />
+		<attributeinfo dtype="FgmDtype.Float" name="pWetSpecularStrength" offset="885" value_offset="268" />
+		<attributeinfo dtype="FgmDtype.Float" name="pWetSpecularValue" offset="906" value_offset="272" />
+		<attributeinfo dtype="FgmDtype.Float" name="pWetnessYPositionLower" offset="924" value_offset="276" />
+		<attributeinfo dtype="FgmDtype.Float" name="pWetnessYPositionUpper" offset="947" value_offset="280" />
+		<attributeinfo dtype="FgmDtype.Float" name="pWoundBloodDepthStrength" offset="970" value_offset="284" />
+		<attributeinfo dtype="FgmDtype.Float" name="pWoundBloodNormalStrength" offset="995" value_offset="288" />
+		<attributeinfo dtype="FgmDtype.Float" name="pWoundBloodRoughness" offset="1021" value_offset="292" />
+		<attributeinfo dtype="FgmDtype.Float" name="pWoundBloodSpecularReflectance" offset="1042" value_offset="296" />
+		<attributeinfo dtype="FgmDtype.Float" name="pWoundDepthMaskPower" offset="1073" value_offset="300" />
+		<attributeinfo dtype="FgmDtype.Float" name="pWoundScarDepthStrength" offset="1094" value_offset="304" />
+		<attributeinfo dtype="FgmDtype.Float" name="pWoundScarNormalStrength" offset="1118" value_offset="308" />
+		<attributeinfo dtype="FgmDtype.Float" name="pWoundScarRoughness" offset="1143" value_offset="312" />
+		<attributeinfo dtype="FgmDtype.Float" name="pWoundScarSpecularReflectance" offset="1163" value_offset="316" />
+	</attributes>
+	<dependencies _address="0 2280" _pool_type="2" _size="56">
+		<dependencyinfo>
+			<dependency_name data="western_diamondback_rattlesnake_mat.paotexture.tex" />
+		</dependencyinfo>
+		<dependencyinfo>
+			<dependency_name data="western_diamondback_rattlesnake_mat.palbinobasecolourandmasktexture.tex" />
+		</dependencyinfo>
+		<dependencyinfo>
+			<dependency_name data="None" />
+		</dependencyinfo>
+		<dependencyinfo>
+			<dependency_name data="western_diamondback_rattlesnake_mat.pbasecolourandmasktexture.tex" />
+		</dependencyinfo>
+		<dependencyinfo>
+			<dependency_name data="None" />
+		</dependencyinfo>
+		<dependencyinfo>
+			<dependency_name data="None" />
+		</dependencyinfo>
+		<dependencyinfo>
+			<dependency_name data="animal_skin.pmarkingnoise.tex" />
+		</dependencyinfo>
+		<dependencyinfo>
+			<dependency_name data="None" />
+		</dependencyinfo>
+		<dependencyinfo>
+			<dependency_name data="None" />
+		</dependencyinfo>
+		<dependencyinfo>
+			<dependency_name data="western_diamondback_rattlesnake_mat.pnormaltexture.tex" />
+		</dependencyinfo>
+		<dependencyinfo>
+			<dependency_name data="western_diamondback_rattlesnake_mat.proughnesspackedtexture.tex" />
+		</dependencyinfo>
+		<dependencyinfo>
+			<dependency_name data="animal_skin.pscarclut.tex" />
+		</dependencyinfo>
+		<dependencyinfo>
+			<dependency_name data="None" />
+		</dependencyinfo>
+	</dependencies>
+	<data_lib _address="0 0" _pool_type="2" _size="320">
+		<attribdata>
+			<value value="0.7" />
+		</attribdata>
+		<attribdata>
+			<value value="0" />
+		</attribdata>
+		<attribdata>
+			<value value="1" />
+		</attribdata>
+		<attribdata>
+			<value value="0.5 0.5 0.5" />
+		</attribdata>
+		<attribdata>
+			<value value="0.5 0.5 0.5" />
+		</attribdata>
+		<attribdata>
+			<value value="0.5 0.5 0.5" />
+		</attribdata>
+		<attribdata>
+			<value value="0.5 0.5 0.5" />
+		</attribdata>
+		<attribdata>
+			<value value="0.5 0.5 0.5" />
+		</attribdata>
+		<attribdata>
+			<value value="0.5 0.5 0.5" />
+		</attribdata>
+		<attribdata>
+			<value value="0.5 0.5 0.5" />
+		</attribdata>
+		<attribdata>
+			<value value="0.5 0.5 0.5" />
+		</attribdata>
+		<attribdata>
+			<value value="0.5 0.5 0.5" />
+		</attribdata>
+		<attribdata>
+			<value value="0.5 0.5 0.5" />
+		</attribdata>
+		<attribdata>
+			<value value="0.5 0.5 0.5" />
+		</attribdata>
+		<attribdata>
+			<value value="0.5 0.5 0.5" />
+		</attribdata>
+		<attribdata>
+			<value value="0.75" />
+		</attribdata>
+		<attribdata>
+			<value value="0.5" />
+		</attribdata>
+		<attribdata>
+			<value value="1.0" />
+		</attribdata>
+		<attribdata>
+			<value value="0.5 0.5 0.5" />
+		</attribdata>
+		<attribdata>
+			<value value="0.13 0.08 0.056" />
+		</attribdata>
+		<attribdata>
+			<value value="0.09 0.06 0.045" />
+		</attribdata>
+		<attribdata>
+			<value value="1" />
+		</attribdata>
+		<attribdata>
+			<value value="1" />
+		</attribdata>
+		<attribdata>
+			<value value="0.1" />
+		</attribdata>
+		<attribdata>
+			<value value="1.0" />
+		</attribdata>
+		<attribdata>
+			<value value="0.5" />
+		</attribdata>
+		<attribdata>
+			<value value="0.55" />
+		</attribdata>
+		<attribdata>
+			<value value="-1" />
+		</attribdata>
+		<attribdata>
+			<value value="0.5" />
+		</attribdata>
+		<attribdata>
+			<value value="3.0" />
+		</attribdata>
+		<attribdata>
+			<value value="0.0" />
+		</attribdata>
+		<attribdata>
+			<value value="0.0" />
+		</attribdata>
+		<attribdata>
+			<value value="1" />
+		</attribdata>
+		<attribdata>
+			<value value="0.25" />
+		</attribdata>
+		<attribdata>
+			<value value="0.85" />
+		</attribdata>
+		<attribdata>
+			<value value="0.8" />
+		</attribdata>
+		<attribdata>
+			<value value="0.115" />
+		</attribdata>
+		<attribdata>
+			<value value="0.0" />
+		</attribdata>
+		<attribdata>
+			<value value="1.0" />
+		</attribdata>
+		<attribdata>
+			<value value="1.0" />
+		</attribdata>
+		<attribdata>
+			<value value="1.5" />
+		</attribdata>
+		<attribdata>
+			<value value="10.0" />
+		</attribdata>
+		<attribdata>
+			<value value="0.25" />
+		</attribdata>
+		<attribdata>
+			<value value="0.224" />
+		</attribdata>
+		<attribdata>
+			<value value="0.011" />
+		</attribdata>
+		<attribdata>
+			<value value="4.346" />
+		</attribdata>
+		<attribdata>
+			<value value="5.0" />
+		</attribdata>
+		<attribdata>
+			<value value="0.0" />
+		</attribdata>
+		<attribdata>
+			<value value="0.446" />
+		</attribdata>
+		<attribdata>
+			<value value="0.04" />
+		</attribdata>
+	</data_lib>
+</FgmHeader>
