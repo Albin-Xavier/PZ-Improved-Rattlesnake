@@ -55,11 +55,12 @@ This mod renovates the Western Diamondback Rattlesnake from Planet Zoo. It has a
 
 |                                   Column A                                   |                                   Column B                                |
 | :--------------------------------------------------------------------------: | :-----------------------------------------------------------------------: |
-| <img src="docs/images/rattlesnake-1.jpg" title="Rattlesnake" width="100%">   | <img src="docs/images/rattlesnake-6.jpg" title="Rattlesnake" width="100%">|
-| <img src="docs/images/rattlesnake-2.jpg" title="Rattlesnake" width="100%">   | <img src="docs/images/rattlesnake-7.jpg" title="Rattlesnake" width="100%">|
-| <img src="docs/images/rattlesnake-3.jpg" title="Rattlesnake" width="100%">   | <img src="docs/images/rattlesnake-8.jpg" title="Rattlesnake" width="100%">|
-| <img src="docs/images/rattlesnake-4.jpg" title="Rattlesnake" width="100%">   | <img src="docs/images/rattlesnake-9.jpg" title="Rattlesnake" width="100%">|
-| <img src="docs/images/rattlesnake-5.jpg" title="Rattlesnake" width="100%">   | <img src="docs/images/rattlesnake-10.jpg" title="Rattlesnake" width="100%">|
+| <img src="docs/images/rattlesnake-1.jpg" title="Rattlesnake" width="100%">   | <img src="docs/images/rattlesnake-7.jpg" title="Rattlesnake" width="100%">|
+| <img src="docs/images/rattlesnake-2.jpg" title="Rattlesnake" width="100%">   | <img src="docs/images/rattlesnake-8.jpg" title="Rattlesnake" width="100%">|
+| <img src="docs/images/rattlesnake-3.jpg" title="Rattlesnake" width="100%">   | <img src="docs/images/rattlesnake-9.jpg" title="Rattlesnake" width="100%">|
+| <img src="docs/images/rattlesnake-4.jpg" title="Rattlesnake" width="100%">   | <img src="docs/images/rattlesnake-10.jpg" title="Rattlesnake" width="100%">|
+| <img src="docs/images/rattlesnake-5.jpg" title="Rattlesnake" width="100%">   | <img src="docs/images/rattlesnake-11.jpg" title="Rattlesnake" width="100%">|
+| <img src="docs/images/rattlesnake-6.jpg" title="Rattlesnake" width="100%">   | <img src="docs/images/rattlesnake-12.jpg" title="Rattlesnake" width="100%">|
 
 </details>
 
