@@ -47,7 +47,9 @@
 
 ## About
 
-This mod renovates the Western Diamondback Rattlesnake from Planet Zoo. It has a stronger, thicker body, and a fiercer looking face to match! This beautiful yet fearsome devil of the desert will bring a powerful presence to your zoo! 
+This mod renovates the Western Diamondback Rattlesnake from Planet Zoo. It has a stronger body and a fiercer looking face to match! This beautiful yet fearsome devil of the desert will bring a powerful presence to your zoo!
+
+**Known Issue:** There is some minor clipping present in certain positions. Unfortunately this cannot be fixed at this time due to the limitations of modding exhibit animals combined with the thicker body of the modded version.
 
 <details>
 <summary>Screenshots</summary>
